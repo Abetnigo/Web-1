@@ -1,156 +1,122 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Ninebot</title>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Wellcome</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
-  </head>
-  <body>
-    <div class="container p-0 mb-3 mt-3 rounded-3 shadow bg-info p-2 text-white bg-opacity-50">
-        <!-- menu-->
+</head>
+<body class="bg-danger bg-gradient bg-opacity-25" >
+    <div class="container bg-danger bg-gradient bg-opacity-75 p-0 mb-3 mt-3 rounded-3 shadow p-2 text-dark">
         <nav class="d-md-flex p-3">
-            <div><h1>Ninebot</h1></div>
+            <div><h1 class="text-center fw-bold">SMAK Terang Bangsa</h1></div>
+            <div><h5 class="text-center">Situs BES SMAK Terbang 2023/2024</h5></div>
+            <a class="text-decoration-none" href="#info">
+                <h5 class="text-warning text-gradient text-opacity-75 text-center text-decoration-none" >Tentang Osis</h5>
+            </a>
             <div class="ms-auto my-auto">
-                <ul class="list-inline m-2">
-                    <li class="list-inline-item mx-md-3"><a href="#collection" class="text-decoration-none fw-bold">Produk Kami</a></li>
-                    <li class="list-inline-item mx-md-3"><a href="#order" class="text-decoration-none fw-bold">Cara Order</a></li>
-                    <li class="list-inline-item mx-md-3"><a href="#tentang" class="text-decoration-none fw-bold">Tentang Kami</a></li>
-
-                </ul>
             </div>
         </nav>
-        <div class="px-4 mb-4">
-            <img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgcoi2dWTrKVpnykXzA0dzPOpIXPe8wofoQjDkJoNu38oW_wzesQY2M1rDyuF3HEHzuc9dvzSsZJlkVU6qtl6SVTwx8BZZ4U2hyphenhyphenk54yeOq8lwGDb8ZaJm29uPtlm68MlpCNxSM2BTB9TGvAs7NCgeIJG_e8BRE18nmxTDv5nLhiTTxSK2xSvQxdmFJx2z-l/s1070/23060210403897133.png" class="w-100 rounded-3"></img>
-        </div>
-
-        <!--catalog-->
-        <h3 class="text-center mt-3" id="collection">Our Collection</h3>
-        <div class="text-center w-50 mx-auto fw-light">Kami Menyediakan ...... juga ...... dengan perlengkapan yang lengkap dan harga yang terbaik di kawasan sekitar Jakarta</div>
-
-        <div class="row row-cols-md-3 row-cols-sm-2 gx-3 p-5">
-            <div class="col mb-5">
-                <div class="card shadow" style="width: auto;">
-                    <img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgcoi2dWTrKVpnykXzA0dzPOpIXPe8wofoQjDkJoNu38oW_wzesQY2M1rDyuF3HEHzuc9dvzSsZJlkVU6qtl6SVTwx8BZZ4U2hyphenhyphenk54yeOq8lwGDb8ZaJm29uPtlm68MlpCNxSM2BTB9TGvAs7NCgeIJG_e8BRE18nmxTDv5nLhiTTxSK2xSvQxdmFJx2z-l/s1070/23060210403897133.png" class="card-img-top" >
-                    <div class="card-body">
-                      <p class="card-text">1 Ini adalah test item 1 dari Ninebot</p>
-                    </div>
-                    <div class="d-none deskripsi"><p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem adipisci odit deserunt magnam corporis perspiciatis quas tempore fuga tenetur architecto! Vitae earum ipsum soluta? Voluptates nam qui aut laborum dolor est dolore doloribus ex, odit laudantium sequi, consequuntur cum recusandae ullam dignissimos deleniti libero sint ab modi. Earum, provident ducimus.</p></div>
-                    <div class="card-footer d-md-flex">
-                        <a class="btn btn-sm btn-primary d-block btnDetails">Details</a>
-                        <span class="ms-auto text-success fw-bold d-block text-center harga">IDR/11.220.000,00</span>
-                    </div>
-                </div>
-            </div>
-            <div class="col mb-5">
-                <div class="card shadow" style="width:auto;">
-                    <img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgcoi2dWTrKVpnykXzA0dzPOpIXPe8wofoQjDkJoNu38oW_wzesQY2M1rDyuF3HEHzuc9dvzSsZJlkVU6qtl6SVTwx8BZZ4U2hyphenhyphenk54yeOq8lwGDb8ZaJm29uPtlm68MlpCNxSM2BTB9TGvAs7NCgeIJG_e8BRE18nmxTDv5nLhiTTxSK2xSvQxdmFJx2z-l/s1070/23060210403897133.png" class="card-img-top" >
-                    <div class="card-body">
-                      <p class="card-text">2 Ini adalah test item 2 dari Ninebot</p>
-                    </div>
-                    <div class="card-footer d-md-flex">
-                        <a class="btn btn-sm btn-primary d-block btnDetails">Details</a>
-                        <span class="ms-auto text-success fw-bold d-block text-center harga">IDR/11.500.000,00</span>
-                    </div>
-                </div>
-            </div>
-            <div class="col mb-5">
-                <div class="card shadow" style="width:auto;">
-                    <img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgcoi2dWTrKVpnykXzA0dzPOpIXPe8wofoQjDkJoNu38oW_wzesQY2M1rDyuF3HEHzuc9dvzSsZJlkVU6qtl6SVTwx8BZZ4U2hyphenhyphenk54yeOq8lwGDb8ZaJm29uPtlm68MlpCNxSM2BTB9TGvAs7NCgeIJG_e8BRE18nmxTDv5nLhiTTxSK2xSvQxdmFJx2z-l/s1070/23060210403897133.png" class="card-img-top" >
-                    <div class="card-body">
-                      <p class="card-text">3 Ini adalah test item 3 dari Ninebot</p>
-                    </div>
-                    <div class="card-footer d-md-flex">
-                        <a class="btn btn-sm btn-primary d-block btnDetails">Details</a>
-                        <span class="ms-auto text-success fw-bold d-block text-center harga">IDR/11.200.000,00</span>
-                    </div>
-                </div>
-            </div>
-            <div class="col mb-5">
-                <div class="card shadow" style="width: auto;">
-                    <img src="images/buku4.jpg" class="card-img-top" >
-                    <div class="card-body">
-                      <p class="card-text">Ini adalah test item 1 dari Ninebot</p>
-                    </div>
-                    <div class="card-footer d-md-flex">
-                        <a class="btn btn-sm btn-primary d-block btnDetails">Details</a>
-                        <span class="ms-auto text-success fw-bold d-block text-center harga">IDR/11.000.000,00</span>
-                    </div>
-                </div>
-            </div>
-            <div class="col mb-5">
-                <div class="card shadow" style="width:auto;">
-                    <img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgcoi2dWTrKVpnykXzA0dzPOpIXPe8wofoQjDkJoNu38oW_wzesQY2M1rDyuF3HEHzuc9dvzSsZJlkVU6qtl6SVTwx8BZZ4U2hyphenhyphenk54yeOq8lwGDb8ZaJm29uPtlm68MlpCNxSM2BTB9TGvAs7NCgeIJG_e8BRE18nmxTDv5nLhiTTxSK2xSvQxdmFJx2z-l/s1070/23060210403897133.png" class="card-img-top" >
-                    <div class="card-body">
-                      <p class="card-text">Ini adalah test item 1 dari Ninebot</p>
-                    </div>
-                    <div class="card-footer d-md-flex">
-                        <a class="btn btn-sm btn-primary d-block btnDetails">Details</a>
-                        <span class="ms-auto text-success fw-bold d-block text-center harga">IDR/11.750.000,00</span>
-                    </div>
-                </div>
-            </div>
-            <div class="col mb-5">
-                <div class="card shadow" style="width:auto;">
-                    <img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgcoi2dWTrKVpnykXzA0dzPOpIXPe8wofoQjDkJoNu38oW_wzesQY2M1rDyuF3HEHzuc9dvzSsZJlkVU6qtl6SVTwx8BZZ4U2hyphenhyphenk54yeOq8lwGDb8ZaJm29uPtlm68MlpCNxSM2BTB9TGvAs7NCgeIJG_e8BRE18nmxTDv5nLhiTTxSK2xSvQxdmFJx2z-l/s1070/23060210403897133.png" class="card-img-top" >
-                    <div class="card-body">
-                      <p class="card-text">Ini adalah test item 1 dari Ninebot</p>
-                    </div>
-                    <div class="card-footer d-md-flex">
-                        <a class="btn btn-sm btn-primary d-block btnDetails">Details</a>
-                        <span class="ms-auto text-success fw-bold d-block text-center harga">IDR/11.100.000,00</span>
-                    </div>
-                </div>
-            </div>
-        </div>
-
-        <!--tentang kami-->
-        <div id="tentang" class="px-4 py-4 bg-secondary text-center">
-            <div class="mx-auto w-75">
-                <h3 class="text-white">Tentang kami</h3>
-                <p class="text-center text_white"><img src="images/about-us.png" align="left" style="width:100px;height:auto" class="me-3 mb-3" />ipsum dolor sit amet consectetur adipisicing elit. Id aliquam reiciendis possimus odit quaerat illum labore delectus officiis debitis, laudantium voluptates qui itaque doloribus a. Dolorum beatae laudantium veritatis magni?</p>
-            </div>
-        </div>
-
-        <!--Cara Order-->
-        <div id="order" class="px-4 py-4 bg-White text-center">
-            <div class="mx-auto w-75">
-                <h3 class="text-dark">Cara Order</h3>
-                <p class="text-center text-dark"><img src="images/order.png" align="right" style="width:100px;height:auto" class="ms-3 mb-3" />ipsum dolor sit amet consectetur adipisicing elit. Id aliquam reiciendis possimus odit quaerat illum labore delectus officiis debitis, laudantium voluptates qui itaque doloribus a. Dolorum beatae laudantium veritatis magni?</p>
-            </div>
-        </div>
-        <!--Copyright-->
-        <div class="text-center p-3 border-top">&copy; 2023 Ninebot</div>
     </div>
-        <!--Modal-->
-<button type="button" class="btn btn-primary d-none btnModal" data-bs-toggle="modal" data-bs-target="#exampleModal">
-    Launch demo modal
-  </button>
-  <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
-    <div class="modal-dialog modal-xl">
-      <div class="modal-content">
-        <div class="modal-header">
-          <h1 class="modal-title fs-5 modalTitle" id="exampleModalLabel"></h1>
-          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-        </div>
-        <div class="modal-body row">
-          <div class="modalImage col-md-6 col-12"></div>
-            <div class="col-md-6 col-12">
-              <div class="modalDeskripsi"></div>
-                <div class="d-md-flex">
-                  <a href="" target="blank" class="btn btn-sm btn-success d-block mt-5 btnBeli ">Beli Produk</a>
-                  <span class="ms-auto text-success fw-bold d-block text-center modalharga"></span>
-            </div>
+    <div class="container bg-danger bg-gradient bg-opacity-75 p-0 mb-3 mt-3 rounded-3 shadow p-2 text-dark">
+        <a href="#brg">
+        <img class="w-100" src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEi7ochhxUb_TNyR4fTtfW9HAL1neuNnVKrpDKUhj3-so4QIkDQ91AbjeDlLaKtE4T3IPmcDyi9M7m03P21LfhNZengSv93-ASxwDLZx6jjInzHQABlnl4O17eFxKZaDIR0u6md8yAxfcqzY4KyhT-gb4VrUZGBi2pRc_1PVbzgpYRBzB_u4Lhug-6q2Bdu7/s3240/20240131_174253.jpg" alt="">
+        </a>
+    </div>
+    <div class="container p-1 mt-3 rounded-3 shadow bg-danger bg-gradient bg-opacity-50 p-2 text-dark">
+        <h3 class="text-center fw-bold mb-3 mt-3" id="info">Informasi</h3>
+        <h6 class="w-auto m-20 text-dark">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Soluta quam repellendus quos ut sit esse, quidem error quo quibusdam cupiditate placeat ab, fuga repudiandae eos qui, est nam velit eum nostrum hic dicta suscipit provident. Rerum optio similique impedit provident natus reiciendis dolore ex perspiciatis quia vel odit autem, sit quod distinctio ratione consequuntur repellat corrupti, velit dolor exercitationem quam quo illo? Quo aperiam, deleniti repellendus laborum harum praesentium aliquam voluptatibus dignissimos veniam! Mollitia, nam ab! Quas. Lorem ipsum, dolor sit amet consectetur adipisicing elit. Odio ea provident ex ut voluptatem neque asperiores aspernatur sapiente laboriosam a sint debitis vero perferendis ipsa, eaque harum temporibus quidem, illo ullam nostrum enim recusandae laudantium iusto! Iste quidem asperiores nulla dignissimos maxime, hic eaque deserunt voluptatum fugiat inventore, culpa porro vitae harum reiciendis neque dolore qui sunt? Omnis culpa reiciendis neque nulla ipsam laboriosam exercitationem iure, laudantium quae consequatur. Laudantium accusantium labore, ipsum voluptates numquam blanditiis consequatur?  Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus quos adipisci, eius recusandae sit atque quas, fugit veniam consequatur necessitatibus et temporibus magnam, totam eaque esse nesciunt exercitationem facilis nisi? Animi dolorem, ducimus fugiat fuga maxime dicta atque dolores minus!</h6>
+        <div class="row row-cols-md-3 row-cols-sm-2 gx-3 p-1">
+            <h2 class="fw-bold text-center mb-5 mt-5" id="brg" >Barang-Barang Kami</h2>
+              <div class="col mb-5">
+                <div class="card shadow" style="width: auto;">
+                    <img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjrlMGJkOpod2JhDWTvHGK0_QlmDAx3Ew5ZrxLEnA9-9-nlcqI6j-2KCDgyepBIi2WpeFpYh6Q0b0PEmtkmANc9yoFOHJmRbyBeypjxzXnTQMVNRjINKyZZBCCkkIBxbPpAeVTjH6LuTs4LCp2kWbQM-y39mVyCZDA-lnV0QYqDQ5W0c_oGEf7SyEjTw86z/s1024/20240131_174406.jpg" class="card-img-top" >
+                    <div class="card-body">
+                      <p class="card-text">Bucket Valentine Paket A</p>
+                    </div>
+                    <div class="d-none deskripsi"><p>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Placeat temporibus maxime est voluptatum quam provident tenetur labore quia natus? Libero repellendus temporibus ipsam? Atque rerum laudantium numquam recusandae aliquid, dolor similique non! Illo sint non quisquam explicabo provident, voluptate mollitia ratione tenetur accusantium, minima sit. Architecto cupiditate ut repellendus. Quisquam deserunt cupiditate natus quam, eveniet dolores culpa pariatur in.</p>
+                    </p></div>
+                    <div class="card-footer d-md-flex">
+                        <a class="btn btn-sm btn-primary d-block btnDetails">Details</a>
+                        <span class="ms-auto text-success fw-bold d-block text-center harga">IDR/42.189.000,00</span>
+                    </div>
                 </div>
-        </div>
-        <div class="modal-footer">
-          <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
-          <button type="button" class="btn btn-primary d-none">Save changes</button>
+            </div>
+
+            <div class="col mb-5">
+                <div class="card shadow" style="width: auto;">
+                    <img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjrlMGJkOpod2JhDWTvHGK0_QlmDAx3Ew5ZrxLEnA9-9-nlcqI6j-2KCDgyepBIi2WpeFpYh6Q0b0PEmtkmANc9yoFOHJmRbyBeypjxzXnTQMVNRjINKyZZBCCkkIBxbPpAeVTjH6LuTs4LCp2kWbQM-y39mVyCZDA-lnV0QYqDQ5W0c_oGEf7SyEjTw86z/s1024/20240131_174406.jpg" class="card-img-top" >
+                    <div class="card-body">
+                      <p class="card-text">Bucket Valentine Paket B</p>
+                    </div>
+                    <div class="d-none deskripsi"><p>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Placeat temporibus maxime est voluptatum quam provident tenetur labore quia natus? Libero repellendus temporibus ipsam? Atque rerum laudantium numquam recusandae aliquid, dolor similique non! Illo sint non quisquam explicabo provident, voluptate mollitia ratione tenetur accusantium, minima sit. Architecto cupiditate ut repellendus. Quisquam deserunt cupiditate natus quam, eveniet dolores culpa pariatur in.</p>
+                    </p></div>
+                    <div class="card-footer d-md-flex">
+                        <a class="btn btn-sm btn-primary d-block btnDetails">Details</a>
+                        <span class="ms-auto text-success fw-bold d-block text-center harga">IDR/42.189.000,00</span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col mb-5">
+                <div class="card shadow" style="width: auto;">
+                    <img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjrlMGJkOpod2JhDWTvHGK0_QlmDAx3Ew5ZrxLEnA9-9-nlcqI6j-2KCDgyepBIi2WpeFpYh6Q0b0PEmtkmANc9yoFOHJmRbyBeypjxzXnTQMVNRjINKyZZBCCkkIBxbPpAeVTjH6LuTs4LCp2kWbQM-y39mVyCZDA-lnV0QYqDQ5W0c_oGEf7SyEjTw86z/s1024/20240131_174406.jpg" class="card-img-top" >
+                    <div class="card-body">
+                      <p class="card-text">Bucket Valentine Paket C</p>
+                    </div>
+                    <div class="d-none deskripsi"><p>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Placeat temporibus maxime est voluptatum quam provident tenetur labore quia natus? Libero repellendus temporibus ipsam? Atque rerum laudantium numquam recusandae aliquid, dolor similique non! Illo sint non quisquam explicabo provident, voluptate mollitia ratione tenetur accusantium, minima sit. Architecto cupiditate ut repellendus. Quisquam deserunt cupiditate natus quam, eveniet dolores culpa pariatur in.</p>
+                    </p></div>
+                    <div class="card-footer d-md-flex">
+                        <a class="btn btn-sm btn-primary d-block btnDetails">Details</a>
+                        <span class="ms-auto text-success fw-bold d-block text-center harga">IDR/42.189.000,00</span>
+                    </div>
+                </div>
+            </div>
+
+    </div>
+    <button type="button" class="btn btn-primary d-none btnModal" data-bs-toggle="modal" data-bs-target="#exampleModal">
+        Launch demo modal
+      </button>
+      <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-xl">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h1 class="modal-title fs-5 modalTitle" id="exampleModalLabel"></h1>
+              <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body row">
+              <div class="modalImage col-md-6 col-12"></div>
+                <div class="col-md-6 col-12">
+                  <div class="modalDeskripsi"></div>
+                    <div class="d-md-flex">
+                      <a href="https://api.whatsapp.com/send?phone=083154900868&text=Halo Saya Mau Beli buket ya kak (anonimus/tidak anonimus)" target="blank" class="btn btn-sm btn-success d-block mt-5 btnBeli">Beli Produk</a>
+                      <span class="ms-auto text-success fw-bold d-block text-center modalharga"></span>
+                </div>
+                    </div>
+            </div>
+            <div class="modal-footer">
+              <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+              <button type="button" class="btn btn-primary d-none">Save changes</button>
+            </div>
+          </div>
         </div>
       </div>
-    </div>
-  </div>
+      <div id="tentang" class="px-4 py-4 bg-light bg-gradient bg-opacity-50 text-center">
+        <li class="list-inline-item mx-md-3"><a href="#collection" class="text-decoration-none text-dark fw-bold">>Kembali Ke atas<</a></li>
+          <div class="mx-auto w-75">
+            <h3 class="text-dark fw-bold">Tentang kami</h3>
+            <h6 class="text-center text-dark">Ini Adalah Web untuk PO Valentine </h6>
+            <a class="text-decoration-none fw-bold" href="https://www.instagram.com/osissmakterbang_?igsh=MXhvN2t4OTZscjhzaA==">
+                <h6>>Click ME<</h6>
+            </a>
+          </div>
+      </div>
+      <div class="text-center p-3 border-top">&copy; 2024 BES SMAK Terang Bangsa</div>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
-    <script src="java/main.js"></script>
-  </body>
+    <script src="sekolah/java.js"></script>
+    
+</body>
 </html>
